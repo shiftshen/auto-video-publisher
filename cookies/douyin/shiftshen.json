@@ -1,0 +1,7 @@
+{
+  "note": "请用浏览器登录抖音，导出Cookie保存到这个文件",
+  "howto": "1. 打开 https://creator.douyin.com/creator-micro/content/upload",
+  "       2. 按F12打开开发者工具",
+  "       3. Application -> Cookies -> 复制内容",
+  "       4. 保存为JSON格式到这个文件"
+}

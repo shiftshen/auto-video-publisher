@@ -1,0 +1,18 @@
+{
+  "account_id": "shiftshen_douyin",
+  "platform": "douyin",
+  "name": "shiftshen",
+  "display_name": "shiftshen",
+  "language": "中文",
+  "theme": "解压",
+  "style": "舒服解压",
+  "tags": ["解压", "ASMR", "强迫症", "治愈"],
+  "title_patterns": [
+    "🎉 强迫症必看！{关键词}也太爽了",
+    "✨ 极度舒适！{关键词}ASMR",
+    "💫 {关键词}过程太治愈了"
+  ],
+  "cookie_file": "cookies/douyin/shiftshen.json",
+  "enabled": true,
+  "schedule_hours": 3
+}
