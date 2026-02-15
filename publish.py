@@ -148,6 +148,25 @@ def main():
                 publish_to_account(account)
             except Exception as e:
                 print(f"❌ 发布失败: {e}")
+    elif sys.argv[1] == "--help" or sys.argv[1] == "-h":
+        print("""
+Auto Video Publisher - 视频发布工具
+
+使用方法:
+  python3 publish.py                 # 发布到所有启用的账号
+  python3 publish.py 账号ID          # 发布到指定账号
+
+示例:
+  python3 publish.py                 # 发布到所有账号
+  python3 publish.py shiftshen_douyin  # 只发布到抖音账号
+
+可用账号:
+  - shiftshen_douyin (抖音)
+  - shiftshen_tiktok (TikTok)
+
+添加新账号:
+  在 accounts/ 目录添加 JSON 配置文件
+""")
     else:
         # 发布到指定账号
         account_id = sys.argv[1]

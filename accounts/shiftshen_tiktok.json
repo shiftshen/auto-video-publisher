@@ -1,0 +1,18 @@
+{
+  "account_id": "shiftshen_tiktok",
+  "platform": "tiktok",
+  "name": "shiftshen",
+  "display_name": "shiftshen",
+  "language": "英文",
+  "theme": "asmr",
+  "style": "relaxing",
+  "tags": ["asmr", "satisfying", "relaxing", "viral"],
+  "title_patterns": [
+    "🎉 Must watch! {keyword} is so relaxing",
+    "✨ Super satisfying {keyword} ASMR",
+    "💫 {keyword} that will blow your mind"
+  ],
+  "cookie_file": "cookies/tiktok/shiftshen.json",
+  "enabled": true,
+  "schedule_hours": 4
+}
