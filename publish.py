@@ -100,8 +100,10 @@ def publish_to_account(account):
     language = account.get('language', '中文')
     themes = load_themes(language)
     
-    # 获取主题
-    theme_name = account.get('theme', '解压')
+    # 随机选择主题（从所有可用主题中随机）
+    import random
+    theme_names = list(themes.keys())
+    theme_name = random.choice(theme_names)
     theme_config = themes.get(theme_name, themes.get('解压', {}))
     
     if not theme_config:

@@ -1,7 +1,6 @@
-# 主题配置
-# 每个主题包含：提示词、标题模板、标签
-
+# 主题配置 - 解压/ASMR/治愈类
 themes:
+  # 原有主题
   解压:
     prompt: "真实解压视频：整齐的物体放入透明盒子，物理真实的下落和碰撞效果，自然的光影反射，真实的材质细节，ASMR音效"
     tags: ["解压", "ASMR", "强迫症", "治愈"]
@@ -9,12 +8,14 @@ themes:
       - "🎉 强迫症必看！{关键词}也太爽了"
       - "✨ 极度舒适！{关键词}ASMR"
       - "💫 {关键词}过程太治愈了"
+      - "🔥 舒爽到起鸡皮疙瘩！{关键词}"
+      - "💯 极度治愈！{关键词}太解压了"
 
   迷你厨房:
     prompt: "迷你小厨房烹饪，真实火焰和蒸汽效果，食材变熟的逼真过程，精致的微缩食物"
     tags: ["迷你厨房", "烹饪", "小人国", "美食"]
     title_patterns:
-      - "🍳 小人国美食！{关键词}太香了"
+      - "🍳 迷你厨房美食！{关键词}太香了"
       - "🏠 迷你厨房做饭啦"
       - "✨ {关键词}全过程"
 
@@ -24,7 +25,6 @@ themes:
     title_patterns:
       - "🎨 滴胶制作全过程！太治愈了"
       - "✨ 滴胶diy也太美了"
-      - "💫 {关键词}教程"
 
   小人国:
     prompt: "迷你世界场景，精致的微缩模型，真实的光影效果，可爱的小人偶在精致场景中"
@@ -32,39 +32,14 @@ themes:
     title_patterns:
       - "🏰 小人国冒险！精致到震撼"
       - "✨ 迷你世界也太美了"
-      - "💫 {关键词}太可爱了"
 
-  自然风景:
-    prompt: "自然风景延时摄影，真实的云彩流动，日出日落的光影变化景色"
-    tags: ["风景",，大自然的壮丽 "自然", "延时", "唯美"]
-    title_patterns:
-      - "🌅 绝美风景延时！太震撼了"
-      - "✨ 大自然也太美了"
-      - "💫 {关键词}延时摄影"
-
-  宠物:
-    prompt: "可爱宠物互动，真实的毛发质感，萌宠的可爱表情和动作，温情的宠物时刻"
-    tags: ["宠物", "可爱", "萌", "有趣"]
-    title_patterns:
-      - "🐱 萌宠合集！可爱到犯规"
-      - "✨ 宠物也太萌了"
-      - "💫 {关键词}互动"
-
-  化妆:
-    prompt: "化妆品收纳整理，真实的化妆品包装，精致有序的收纳过程，护肤品的真实质感"
-    tags: ["化妆", "收纳", "整理", "护肤"]
-    title_patterns:
-      - "💄 化妆品收纳！太治愈了"
-      - "✨ 护肤整理也太美了"
-      - "💫 {关键词}全过程"
-
+  # 新增解压类主题 (30+)
   肥皂切割:
     prompt: "肥皂切割ASMR，整齐的切割面，泡沫丰富，真实的肥皂质感"
     tags: ["肥皂", "切割", "ASMR", "解压"]
     title_patterns:
       - "🧼 肥皂切割！太解压了"
       - "✨ 切割ASMR也太爽了"
-      - "💫 {关键词}过程"
 
   史莱姆:
     prompt: "史莱姆制作和拉伸，真实的弹性质感，彩色渐变效果，拉伸时的气泡"
@@ -72,40 +47,214 @@ themes:
     title_patterns:
       - "🎯 史莱姆拉伸！太解压了"
       - "✨ 史莱姆也太好玩了吧"
-      - "💫 {关键词}制作"
 
-# 英文主题（TikTok用）
-themes_en:
-  asmr:
-    prompt: "Realistic ASMR video: objects falling into transparent box, realistic physics and collision, natural light reflection, real material details, ASMR sound effects"
-    tags: ["asmr", "satisfying", "relaxing", "satisfying"]
+  整理收纳:
+    prompt: "化妆品、护肤品、文具整理收纳，整齐的摆放，治愈的收纳过程"
+    tags: ["收纳", "整理", "治愈", "强迫症"]
     title_patterns:
-      - "🎉 Must watch for ASMR lovers! {keyword} is so relaxing"
-      - "✨ Super satisfying {keyword} ASMR"
-      - "💫 {keyword} process is so healing"
+      - "📦 收纳整理！太治愈了"
+      - "✨ 强迫症福音！{关键词}"
 
-  mini_kitchen:
-    prompt: "Mini kitchen cooking, realistic flame and steam effects, realistic food cooking process, exquisite miniature food"
-    tags: ["minikitchen", "cooking", "miniature", "food"]
+  棉花糖:
+    prompt: "棉花糖切割、烘烤，蓬松的质感，甜蜜的色彩"
+    tags: ["棉花糖", "甜品", "解压", "ASMR"]
     title_patterns:
-      - "🍳 Mini kitchen food! {keyword} smells amazing"
-      - "🏠 Cooking in mini kitchen"
-      - "✨ {keyword} full process"
+      - "🍡 棉花糖！太解压了"
+      - "✨ 甜蜜治愈系"
 
-  slime:
-    prompt: "Slime making and stretching, realistic elastic texture, color gradient effect, bubbles when stretching"
-    tags: ["slime", "satisfying", "handmade", "asmr"]
+  果冻:
+    prompt: "果冻制作和切割，Q弹的质感，透明的琥珀色，治愈的晃动"
+    tags: ["果冻", "甜品", "解压", "ASMR"]
     title_patterns:
-      - "🎯 Slime stretching! So relaxing"
-      - "✨ Slime is so fun"
-      - "💫 {keyword} making"
+      - "🍮 果冻切割！太解压了"
+      - "✨ Q弹治愈"
 
-# 泰文主题
-themes_th:
-  อัสเมอร์:
-    prompt: "วิดีโอ ASMR จริง: วัตถุตกลงในกล่องใส่ ฟิสิกส์จริง แสงธรรมชาติ รายละเอียดวัตถุจริง เสียง ASMR"
-    tags: ["อัสเมอร์", "ผ่อนคลาย", "นวด", "บำบัด"]
+  冰块:
+    prompt: "冰块融化、敲碎，透明的冰晶，水滴滑落"
+    tags: ["冰块", "解压", "ASMR", "降温"]
     title_patterns:
-      - "🎉 ต้องดูสำหรับคนรัก ASMR! {keyword} ผ่อนคลายมาก"
-      - "✨ {keyword} ASMR สบายมาก"
-      - "💫 กระบวนการ {keyword} บำบัดใจ"
+      - "🧊 冰块融化！太解压了"
+      - "✨ 清凉ASMR"
+
+  墨水:
+    prompt: "墨水滴入水中，绚丽的扩散效果，色彩融合"
+    tags: ["墨水", "艺术", "解压", "色彩"]
+    title_patterns:
+      - "🎨 墨水扩散！太美了"
+      - "✨ 色彩艺术"
+
+  奶油:
+    prompt: "奶油刮刀、涂抹、切割，绵密的质感，治愈的纹理"
+    tags: ["奶油", "甜品", "解压", "ASMR"]
+    title_patterns:
+      - "🧁 奶油处理！太解压了"
+      - "✨ 绵密治愈"
+
+  线圈:
+    prompt: "彩色线圈缠绕、弹开，整齐的排列，治愈的弹性"
+    tags: ["线圈", "解压", "玩具", "ASMR"]
+    title_patterns:
+      - "🎯 线圈弹射！太解压了"
+      - "✨ 彩色治愈"
+
+  史莱姆气泡:
+    prompt: "史莱姆气泡制作、挤压、爆浆，弹性质感"
+    tags: ["史莱姆", "气泡", "解压", "ASMR"]
+    title_patterns:
+      - "🫧 史莱姆气泡！太解压了"
+      - "✨ 爆浆治愈"
+
+  指甲油:
+    prompt: "指甲油涂抹、干燥、卸除，光滑的表面，色彩的流动"
+    tags: ["指甲油", "美甲", "解压", "ASMR"]
+    title_patterns:
+      - "💅 指甲油！太解压了"
+      - "✨ 美甲艺术"
+
+  蜂蜜:
+    prompt: "蜂蜜拉丝、滴落，粘稠的质感，金黄的颜色"
+    tags: ["蜂蜜", "美食", "解压", "ASMR"]
+    title_patterns:
+      - "🍯 蜂蜜拉丝！太解压了"
+      - "✨ 甜蜜治愈"
+
+  蜡烛:
+    prompt: "蜡烛燃烧、熔化、滴落，温暖的光芒"
+    tags: ["蜡烛", "香薰", "解压", "治愈"]
+    title_patterns:
+      - "🕯️ 蜡烛融化！太解压了"
+      - "✨ 温暖治愈"
+
+  剃须泡沫:
+    prompt: "剃须泡沫涂抹、刮除，绵密的泡沫"
+    tags: ["剃须", "泡沫", "解压", "ASMR"]
+    title_patterns:
+      - "🪒 泡沫处理！太解压了"
+      - "✨ 绵密ASMR"
+
+  泥土:
+    prompt: "彩色泥土塑形、切割，细腻的质感"
+    tags: ["泥土", "手工", "解压", "ASMR"]
+    title_patterns:
+      - "🟤 泥土塑形！太解压了"
+      - "✨ 手工艺术"
+
+  糖霜:
+    prompt: "糖霜筛落、装饰，甜美的粉末，白色的雪花般"
+    tags: ["糖霜", "烘焙", "解压", "ASMR"]
+    title_patterns:
+      - "❄️ 糖霜筛落！太解压了"
+      - "✨ 甜美治愈"
+
+  芝士:
+    prompt: "芝士拉伸、切割、拉丝，浓郁的口感"
+    tags: ["芝士", "美食", "解压", "ASMR"]
+    title_patterns:
+      - "🧀 芝士拉丝！太解压了"
+      - "✨ 浓郁治愈"
+
+  海洋球:
+    prompt: "海洋球倒入、整理，彩色的球体，治愈的碰撞"
+    tags: ["海洋球", "解压", "玩具", "ASMR"]
+    title_patterns:
+      - "🎱 海洋球！太解压了"
+      - "✨ 彩色治愈"
+
+  弹力球:
+    prompt: "弹力球弹跳、碰撞，真实的物理效果"
+    tags: ["弹力球", "解压", "物理", "ASMR"]
+    title_patterns:
+      - "🏀 弹力球！太解压了"
+      - "✨ 物理治愈"
+
+  沙拉:
+    prompt: "沙拉搅拌、切菜，新鲜的蔬菜，治愈的切割声"
+    tags: ["沙拉", "美食", "解压", "ASMR"]
+    title_patterns:
+      - "🥗 沙拉制作！太解压了"
+      - "✨ 新鲜治愈"
+
+  意面:
+    prompt: "意面煮熟、沥干、搅拌，Q弹的面条"
+    tags: ["意面", "美食", "解压", "ASMR"]
+    title_patterns:
+      - "🍝 意面处理！太解压了"
+      - "✨ Q弹治愈"
+
+  炒饭:
+    prompt: "炒饭翻炒、粒粒分明，锅气的香味"
+    tags: ["炒饭", "美食", "解压", "ASMR"]
+    title_patterns:
+      - "🍳 炒饭翻炒！太解压了"
+      - "✨ 锅气治愈"
+
+  珍珠:
+    prompt: "珍珠项链整理、排列，闪亮的光泽"
+    tags: ["珍珠", "珠宝", "解压", "ASMR"]
+    title_patterns:
+      - "💎 珍珠整理！太解压了"
+      - "✨ 闪亮治愈"
+
+  串珠:
+    prompt: "串珠手工，彩色珠子穿线，整齐的排列"
+    tags: ["串珠", "手工", "解压", "ASMR"]
+    title_patterns:
+      - "📿 串珠手工！太解压了"
+      - "✨ 彩色治愈"
+
+  乐高:
+    prompt: "乐高积木拼搭，精准的拼接，治愈的搭建声"
+    tags: ["乐高", "积木", "解压", "ASMR"]
+    title_patterns:
+      - "🧱 乐高拼搭！太解压了"
+      - "✨ 搭建治愈"
+
+  拼图:
+    prompt: "拼图拼接，一块块完成，治愈的成就感"
+    tags: ["拼图", "解压", "益智", "ASMR"]
+    title_patterns:
+      - "🧩 拼图完成！太解压了"
+      - "✨ 成就治愈"
+
+  毛绒玩具:
+    prompt: "毛绒玩具整理、排列，柔软的质感"
+    tags: ["毛绒玩具", "解压", "可爱", "ASMR"]
+    title_patterns:
+      - "🧸 毛绒玩具！太解压了"
+      - "✨ 柔软治愈"
+
+  耳机绕线:
+    prompt: "耳机线缠绕、整理，整齐的线圈"
+    tags: ["耳机", "整理", "解压", "ASMR"]
+    title_patterns:
+      - "🎧 耳机绕线！太解压了"
+      - "✨ 整齐治愈"
+
+  数据线:
+    prompt: "数据线整理、收纳，整齐的布线"
+    tags: ["数据线", "整理", "解压", "ASMR"]
+    title_patterns:
+      - "🔌 数据线整理！太解压了"
+      - "✨ 强迫症福音"
+
+  化妆品:
+    prompt: "化妆品收纳、排列，整齐的色彩"
+    tags: ["化妆品", "收纳", "解压", "ASMR"]
+    title_patterns:
+      - "💄 化妆品收纳！太解压了"
+      - "✨ 色彩治愈"
+
+  护肤品:
+    prompt: "护肤品收纳、排列，整齐的瓶瓶罐罐"
+    tags: ["护肤品", "收纳", "解压", "ASMR"]
+    title_patterns:
+      - "🧴 护肤品收纳！太解压了"
+      - "✨ 整齐治愈"
+
+  首饰:
+    prompt: "首饰整理、排列，闪亮的珠宝"
+    tags: ["首饰", "珠宝", "解压", "ASMR"]
+    title_patterns:
+      - "💍 首饰整理！太解压了"
+      - "✨ 闪亮治愈"
+
